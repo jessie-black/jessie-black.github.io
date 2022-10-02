@@ -16,5 +16,6 @@ The initial template uses the Solid State template from HTML5 UP, found <a href 
 
 ## Future changes
 - Add resume in detail on separate page, link highlights on main page to resume
+- Figure out which icon to use (currently glasses or dragon) & examine why showing up in Safari but not Chrome.
 - Add portfolio project summaries & links as I add new repositories
 - Consider blog format/articles on learning journey as I revisit topics? This may lead to clutter & be overkill.
