@@ -4132,6 +4132,7 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 480px) {
+		
 
 		#footer .inner .copyright li {
 			border-left: 0;
@@ -4148,6 +4149,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 
+		button{
+			padding: 5px;
+		}
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
