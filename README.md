@@ -21,3 +21,4 @@ The initial template uses the Solid State template from HTML5 UP, found <a href 
 - Add resume section on background & languages as well as project highlights on that page
 - Add more portfolio project summaries & links as I add new repositories
 - Consider blog format/articles
+- Check on mobile appearance (buttons need padding adjusted on sides)
