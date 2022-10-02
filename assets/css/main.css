@@ -4066,6 +4066,39 @@ input, select, textarea {
 					color: inherit;
 				}
 
+/* Added */
+ul.contact{
+	align-self: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+img.headerlogo{
+	height: 1.5em;
+	vertical-align:text-bottom;
+}
+ul.subsection-links{
+	columns: 2;
+	list-style:none;
+}
+ul.education{
+	list-style: circle;
+	columns: 2;
+}
+ul.resourcelist{
+	list-style: circle;
+}
+button{
+	margin: 5px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+div.line{
+	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+	margin-bottom: 10px;
+}
+
+
 	@media screen and (max-width: 1280px) {
 
 		#footer {
@@ -4133,7 +4166,15 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 		
-
+		button{
+			font-size: smaller;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		ul.education{
+			list-style: circle;
+			columns: 1;
+		}
 		#footer .inner .copyright li {
 			border-left: 0;
 			display: block;
@@ -4149,43 +4190,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 
-		button{
-			padding: 5px;
-		}
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
 	}
 
-/* Added */
-ul.contact{
-	align-self: center;
-	margin-top: 50px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-}
-img.headerlogo{
-	height: 1.5em;
-	vertical-align:text-bottom;
-}
-ul.subsection-links{
-	columns: 2;
-	list-style:none;
-}
-ul.education{
-	list-style: circle;
-	columns: 2;
-}
-ul.resourcelist{
-	list-style: circle;
-}
-button{
-	margin: 5px;
-	margin-top: 0px;
-	margin-bottom: 15px;
-}
-div.line{
-	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-	margin-bottom: 10px;
-}
