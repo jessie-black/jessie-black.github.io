@@ -4156,6 +4156,32 @@ input, select, textarea {
 
 /* Added */
 ul.contact{
-	columns: 3;
+	align-self: center;
+	margin-top: 50px;
 	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+img.headerlogo{
+	height: 1.5em;
+	vertical-align:text-bottom;
+}
+ul.subsection-links{
+	columns: 2;
+	list-style:none;
+}
+ul.education{
+	list-style: circle;
+	columns: 2;
+}
+ul.resourcelist{
+	list-style: circle;
+}
+button{
+	margin: 5px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+div.line{
+	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+	margin-bottom: 10px;
 }

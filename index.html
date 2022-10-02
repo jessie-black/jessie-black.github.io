@@ -7,20 +7,20 @@
 <html>
 	<head>
 		<title>Jessie Black - Portfolio</title>
-		<link rel="shortcut icon" href="images/favicon.ico"/>
+		<link rel="shortcut icon" href="images/favicon-sm.png"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
+		
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html"><div class="logo"><span class="icon fa-dragon"></span> Jessie Black</a></h1>
+						<h1><a href="index.html"><img class = "headerlogo" src="images/favicon-sm.png"/> Jessie Black</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -33,11 +33,8 @@
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="#projects">Projects</a></li>
-								<li><a href="resume.html">Résumé</a></li>
-								<!--<li><a href="elements.html">Elements</a></li>-->
-								<li><a href="https://github.com/jessie-black">GitHub Repository</a></span></li>
-								<li><a href="https://www.linkedin.com/in/jessie-black-48b32996/">LinkedIn Profile</a></li>
-								<li><a href="mailto:jess.blk@gmail.com">Email</a></li>
+								<li><a href="resume.html">View Resume</a></li>
+								<li><a href="#footer">Contact</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -46,7 +43,7 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="icon fa-dragon"></span></div>
+							<div class="logo"><span class="icon"><i class="fa-solid fa-dragon"></i></span></div>
 							<!--
 							<div class="logo"><span class="icon fa-seedling"></span></div>
 							<div class="logo"><span class="icon fa-paper-plane"></span></div>
@@ -57,7 +54,13 @@
 							<div class="logo"><span class="icon fa-book-open"></span></div>
 							-->
 							<h2>Jessie Black</h2>
-							<p>Learn. Solve. Create.</p>
+							<!-- other possible ones: Analzye. Evaluate. Interpret. Decode. Learn. 
+							Question. Analyze. Build.
+							Discover. Interpret. Design. 
+							Seek. Ponder. Construct.
+							Learn. Solve. Create.
+							-->
+							<p>Explore. Analyze. Create.</p>
 						</div>
 					</section>
 
@@ -73,7 +76,7 @@
 										<p>About to complete coursework for B.S. in Computer Science, with solid foundation in computer systems, programming, software engineering, communications & networking, 
 											databases, web programming, operating systems, data structures & algorithms, statistics, algebra, discrete math, calculus, and comparative programming languages.
 										</p>
-										<a href="resume.html" class="special">Learn more</a>
+										<a href="resume.html#education" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
@@ -88,7 +91,7 @@
 											Data analytics is the process of interpreting and deriving meaning from that data. Both are vitally important and kind of a blast. </p>
 											<p>I am currently in progress of completing <b>IBM's Data Engineering professional certificate</b> using Python, SQL, db2, Linux shell, Airflow, Kafka, Hadoop, and Spark to do some pretty magical things with data.
 											</p>
-										<a href="resume.html" class="special">Learn more</a>
+										<a href="resume.html#education" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
@@ -100,7 +103,7 @@
 									<div class="content">
 										<h2 class="major">Data Science and Machine Learning</h2>
 										<p>What can we do with the data that data engineers and data analysts have so beautifully prepared? Use it to predict the future!</p><p>Currently working on <b>Data Science Professional Certificate by HarvardX</b>, using the R programming language for visualization, probability, inference, modeling, wrangling, linear regression, and machine learning.</p>
-										<a href="resume.html" class="special">Learn more</a>
+										<a href="resume.html#education" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
@@ -112,8 +115,11 @@
 									<div class="content">
 										
 										<h2 class="major">Programming Languages</h2>
-										<p>Solid background in Java, Python, SQL, R, JavaScript and HTML/CSS.<br>Some experience in Ruby, C, C++, Haskell, Perl, Prolog, & PHP.<p>I will enthusiastically learn any language needed for a project. (Except Malbolge. Never Malbolge.)</p>
-										<a href="resume.html" class="special">Learn more</a>
+										<p>Solid background in Java, Python, SQL, R, JavaScript and HTML/CSS.
+											<br>Some experience in Ruby, C, C++, Haskell, Perl, Prolog, & PHP.
+											<br>Briefly glanced at Ada once but honestly would not even recognize it in passing anymore.</p>
+											<p>Will enthusiastically learn any language needed for a project. (Except Malbolge.)</p>
+										<a href="resume.html#langtools" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
@@ -126,7 +132,7 @@
 									<p>Professional background in classroom education, training & office management.<br>Public speaking, designing educational materials, and leading workshops.
 										<p>In addition to all of the above, I've had the privilege of living on 4 different continents (using 4 different languages) and interacting with a wide variety of cultures and communication styles, 
 											making me highly adaptable and good at understanding various opinions.</p>
-									<a href="#" class="special">Learn more</a>
+									<a href="resume.html#background" class="special">Learn more</a>
 								</div>
 							</div>
 						</section>
@@ -135,14 +141,18 @@
 								<div class="inner">
 									<h2 class="major">Projects</h2>
 									<section class="features">
-										<p>Coming soon...</p>
-										<!--
+							
+										
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="https://github.com/jessie-black/coffee-shop-RDB-project" class="image"><img src="images/coffee-shop.jpg" alt="Coffee Shop" /></a>
+											<h3 class="major">Designing a relational database</h3>
+											<p>Given disparate data sources for a coffee shop chain looking to expand and open new franchises, designed a central database
+												to organize and manage all data including customized views for business partners.
+											</p>
+											<p><i>Uses PostgreSQL, IBDM Db2, MySQL, pgAdmin, and SQL.</i></p>
+											<a href="https://github.com/jessie-black/coffee-shop-RDB-project" class="special">Learn more</a>
 										</article>
+										<!--
 										<article>
 											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
 											<h3 class="major">Nisl placerat</h3>
@@ -175,38 +185,7 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p></p>
-							<!--
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							-->
 							<ul class="contact">
-								<!--
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-								-->
 								<li class="icon solid fa-envelope"><a href="mailto:jess.blk@gmail.com">Email</a></li>
 								<li class="icon brands fa-github"><a href="https://github.com/jessie-black">GitHub</a></li>
 								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/jessie-black-48b32996/">LinkedIn</a></li>
@@ -220,6 +199,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="https://kit.fontawesome.com/bb2d7b44e7.js" crossorigin="anonymous"></script>	
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

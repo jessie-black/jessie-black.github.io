@@ -7,15 +7,17 @@ The initial template uses the Solid State template from HTML5 UP, found <a href 
 ## Software & languages used
 - HTML
 - CSS
+- JavaScript
 - VS Code 
 
 ## Changes made
 - Added highlights of experience in CS coursework, specialized certification in Data Science & Data Engineering, programming languages & leadership/communication
 - Adjusted contact information, using CSS & Font Awesome to streamline to 3 single links with icons
-- Shifted icon & favicon using Font Awesome & CSS
+- Shifted icon & favicon using Font Awesome & CSS & fixed Browser compatibility issue
+- Linked to first project in repository
+- Added CS education section of resume on separate page with course details, added javascript functions to display content based on buttons selected. Linked from highlights on main page
 
 ## Future changes
-- Add resume in detail on separate page, link highlights on main page to resume
-- Figure out which icon to use (currently glasses or dragon) & examine why showing up in Safari but not Chrome.
-- Add portfolio project summaries & links as I add new repositories
-- Consider blog format/articles on learning journey as I revisit topics? This may lead to clutter & be overkill.
+- Add resume section on background & languages as well as project highlights on that page
+- Add more portfolio project summaries & links as I add new repositories
+- Consider blog format/articles

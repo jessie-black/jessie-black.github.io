@@ -6,7 +6,8 @@
 -->
 <html>
 	<head>
-		<title>Generic - Solid State by HTML5 UP</title>
+		<title>Resume - Jessie Black</title>
+		<link rel="shortcut icon" href="images/favicon-sm.png"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,22 +20,20 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
+						<h1><a href="index.html"><img class = "headerlogo" src="images/favicon-sm.png"/> Jessie Black</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
-
 				<!-- Menu -->
 					<nav id="menu">
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="index.html#projects">Projects</a></li>
+								<li><a href="resume.html">View Resume</a></li>
+								<li><a href="#footer">Contact</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -44,22 +43,38 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Generic</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<h2>Resume</h2>
+								<p>Always learning, always growing.</p>
 							</div>
 						</header>
 
 						<!-- Content -->
-							<div class="wrapper">
+							<div class="wrapper" id = "education">
 								<div class="inner">
 
-									<h3 class="major">Lorem ipsum dolor</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+									<h3 class="major" id="education">Computer Science Education</h3>
+									<button id="cs-education-content" type="button">CS Degree</button>
+									<button id="de-education-content" type="button">Data Engineering</button>
+									<button id="ds-education-content" type="button">Data Science</button>
+									<button id="etc-education-content" type="button">Continuing Education</button>
+									<div class="line"></div>
+									<div id="education-content"><p>I am currently in my final year as a CS student and will earn my B.S. in Computer Science in 2023.
+										Aside from the fundamentals learned through my coursework, I also am pursuing specialized professional certification in Data Engineering, Data Science as well
+										as continuing to broaden and deepen my understanding in this complex and ever-changing field of computer science. Select a button above for further details.
+									</p></div>
 
-									<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+									<h3 class="major" id="background">Background & Work Experience</h3>
+									<button id="nut-background-content" type="button">Clinical Nutrition</button>
+									<button id="man-background-content" type="button">Management</button>
+									<button id="ed-background-content" type="button">Teaching</button>
+									<button id="comm-background-content" type="button">Presentations</button>
+									<button id="fl-background-content" type="button">Foreign Languages</button>
+									<div id="background-content"><p>Click a button to learn more about my background.</p></div>
 
-									<h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<h3 class="major" id="langtools">Programming Languages & Tools</h3>
+									<button id="lang-langtools-content" type="button">Languages & Frameworks</button>
+									<button id="tools-langtools-content" type="button">Systems & Tools</button>
+									<div id="langtools-content"><p>Click a button to learn more about what I can use.</p></div>
 
 									<section class="features">
 										<article>
@@ -85,53 +100,104 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
 							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="icon solid fa-envelope"><a href="mailto:jess.blk@gmail.com">Email</a></li>
+								<li class="icon brands fa-github"><a href="https://github.com/jessie-black">GitHub</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/jessie-black-48b32996/">LinkedIn</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Jessie Black, 2022. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
-
 			</div>
 
+			<p>
+				<b>B.S. Computer Science</b> - University of the People (cGPA 4.0)
+				January 2021 - Present (Expected graduation: Spring/Summer 2023)
+			</p>
+
 		<!-- Scripts -->
+			<script src="https://kit.fontawesome.com/bb2d7b44e7.js" crossorigin="anonymous"></script>	
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function changeContent(newContent) {
+				  document.getElementById("education-content").innerHTML = newContent;
+				}
+				const cseducation='<h3>B.S. Computer Science - University of the People</h3>' + 
+					'<h4>January 2021 - Present (Expected graduation: Spring/Summer 2023)</h4>' +
+					'<p><i>Academic Honors: President\’s List (all academic terms to date); cGPA 4.00</i></p>' +
+					'<p>CS major coursework completed to date & associated languages:</p>' + 
+					'<ul class="education"><li>Programming Fundamentals (Python)</li><li>Programming I & II (Java)</li><li>Operating Systems I & II</li>' + 
+						'<li>Software Engineering</li><li>Web Programming I & II (JavaScript, HTML/CSS & PHP)</li><li>Communications & Networks</li><li>Computer Systems (Hack Assembly)</li>' + 
+						'<li>Databases I & II (SQL)</li><li>Data Structures (Java)</li><li>Analysis of Algorithms (Java)</li><li>Comparative Programming Languages (Haskell, Perl, PHP, Prolog, RegEx)</li>' + 
+						'<li>College Algebra</li><li>Discrete Mathematics</li><li>Introduction to Statistics (R)</li><li>Calculus</li></ul>' +
+					'<p>Currently Taking: Data Mining & Machine Learning (R)</p>';
 
+				const deeducation='<h3>Data Engineering Professional Certificate - IBM</h3>' + 
+					'<h4>September 2022 - Present (Expected completion: December 2022)</h4>' +
+					'<p>Component Courses (4/13 courses completed):</p>' + 
+					'<ol class="education"><li>Introduction to Data Engineering</li><li>Python for Data Science, AI & Development</li><li>Python Project</li>' + 
+						'<li>Introduction to Relational Databases</li><li>Databases and SQL for Data Science with Python</li><li>Hands-On Introduction to Linux Commands and Shell Scripting</li>' +
+						'<li>Relational Database Administration</li><li>ETL and Data Pipelines with Shell, Airflow and Kafka</li><li>Getting Started with Data Warehousing and BI Analytics</li>' + 
+						'<li>NoSQL, Big Data and Spark Foundations</li><li>Intro to Big Data with Spark and Hadoop</li><li>Data Engineering and Machine Learning Using Spark</li><li>Data Engineering and Capstone Project</li></ol>';
+					
+				const dseducation='<h3>Data Science Professional Certificate - HarvardX</h3>' + 
+					'<h4>June 2022 - Present (Expected completion: December 2022)</h4>' +
+					'<p>Component Courses (5/9 courses completed):</p>' + 
+					'<ol class="education"><li>R Basics</li><li>Vizualization</li><li>Probability</li>' + 
+						'<li>Inference and Modeling</li><li>Productivity Tools</li><li>Wrangling</li>' +
+						'<li>Linear Regression</li><li>Machine Learning</li><li>Capstone Project</li></ol>';
+				const etceducation='<h3>Continuing Education</h3>' + 
+					'<p>We are never done learning -- as my coursework has given me a solid foundational base and my specializations ' + 
+						'allow me to focus more deeply on on the highly inter-connected fields of data engineering and data science, I continuously seek to both broaden and deepen my knowledge and skills.' +
+						'Through additional reading, courses, and projects I revisit the basics with a deeper understanding of the big picture and I can improve my understanding of this ever-changing and fascinating field.</p>' + 
+					'<p>Here are some of the books I have read:</p>' + 
+					'<ul class="resourcelist"><li><i>Operating Systems: Three Easy Pieces</i> by Remzi Arpaci-Dusseau & Andrea Arpaci-Dusseau <b>**FAVORITE**</b></li>' + 
+						'<li><i>Grokking Algorithms</i> by Aditya Bhargava</li>' +  
+						'<li><i>The Elements of Computing Systems</i> by Noam Nisan & Simon Schocken</li>' +  
+						'<li><i>Understanding Programming Languages</i> by M. Ben-Ari </li>' +  
+						'<li><i>Introduction to Statistical Learning</i> by James, Witten, Hastie, Tibshirani</li>' + 
+						'<li><i>Introduction to Data Science</i> by Rafael Irizarry</li>' + 
+						'<li><i>Learn You a Haskell for Great Good</i> by Miran Lipovaca</li>' + 
+						'<li><i>Programming in Haskell</i> by Graham Hutton</li>' + 
+						'<li><i>Think Python</i> by Allen Downey</li>' + 
+						'<li><i>Introduction to Programming Using Python</i> by David Eck</li>' + 
+						'<li><i>Naked Statistics</i> by Charles Wheelan</li>' + 
+						'<li><i>Structure and Interpretation of Computer Programs</i> by Harold Abelson & Gerald Jay Sussman</li></ul>' + 
+						'<p>Here are other courses I have taken:</p>' + 
+					'<ul class="resourcelist"><li><b>The Odin Project</b> -- partially completed but elected to pursue full CS degree rather than focus on full stack web development.<b>**FAVORITE**</b></li>';		
+				document.getElementById("cs-education-content").onclick = function () {
+				  changeContent(cseducation);
+				};
+
+				document.getElementById("de-education-content").onclick = function () {
+					changeContent(deeducation);
+				};
+
+				document.getElementById("ds-education-content").onclick = function () {
+					changeContent(dseducation);
+				};
+				document.getElementById("etc-education-content").onclick = function () {
+					changeContent(etceducation);
+				};
+			  </script>
+			  
+			  <!--
+			<script>
+				function changeEducationContent(){
+					document.getElementByID("education-content").innerHTML = "Test.";
+				}
+				document.getElementsByTagName("cs-education-content").onclick=function(){
+					changeContent("Here is information about my Computer Science degree.");
+				};
+
+			</script>
+			-->
 	</body>
 </html>
