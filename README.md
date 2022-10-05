@@ -16,9 +16,10 @@ The initial template uses the Solid State template from HTML5 UP, found <a href 
 - Shifted icon & favicon using Font Awesome & CSS & fixed Browser compatibility issue
 - Linked to first project in repository
 - Added CS education section of resume on separate page with course details, added javascript functions to display content based on buttons selected. Linked from highlights on main page
+- Added commentary on favorite resources in continuing education
+- Fixed mobile appearance of buttons
 
 ## Future changes
 - Add resume section on background & languages as well as project highlights on that page
 - Add more portfolio project summaries & links as I add new repositories
 - Consider blog format/articles
-- Check on mobile appearance (buttons need padding adjusted on sides)
