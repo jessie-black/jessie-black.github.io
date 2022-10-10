@@ -1,4 +1,6 @@
 # jessie-black.github.io
+Simple website to showcase resume, background, and to add projects as they occur
+
 ## Personal Portfolio
 This website is designed both as a professional portfolio to showcase my training, education, work experience, and projects as well as a documentation of my continued learning journey in computer science.
 
