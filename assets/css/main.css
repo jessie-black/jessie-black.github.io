@@ -4085,6 +4085,10 @@ ul.education{
 	list-style: circle;
 	columns: 2;
 }
+ul.education1col{
+	list-style: circle;
+	columns: 1;
+}
 ul.resourcelist{
 	list-style: circle;
 }

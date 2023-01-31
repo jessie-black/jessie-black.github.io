@@ -53,31 +53,31 @@
 								<div class="inner">
 
 									<h3 class="major" id="education">Computer Science Education</h3>
-									<button id="cs-education-content" type="button">CS Degree</button>
-									<button id="de-education-content" type="button">Data Engineering</button>
-									<button id="ds-education-content" type="button">Data Science</button>
-									<button id="etc-education-content" type="button">Continuing Education</button>
+									<button id="cs-education-content" type="button">BS in Computer Science</button>
+									<button id="ds-education-content" type="button">MS in Data Science + Professional Certification</button>
+									<button id="de-education-content" type="button">Data Engineering Professional Certification</button>
 									<div class="line"></div>
-									<div id="education-content"><p>I am currently in my final year as a CS student and will earn my B.S. in Computer Science in 2023.
-										Aside from the fundamentals learned through my coursework, I also am pursuing specialized professional certification in Data Engineering, Data Science as well
+									<div id="education-content"><p>I graduated <b>summa cum laude from The University of the People</b>, earning my <b>B.S. in Computer Science</b> with a gpa of 4.00 .
+										Aside from the fundamentals learned through my coursework, I am currently studying towards my <b>M.S. in Data Science from the University of Colorado, Boulder</b>, with a 4.00 in all classes taken to date.</p>
+										<p>In order to stay current in industry-standard tools, I also am pursuing specialized <b>professional certification in Data Engineering and Data Science</b> as well
 										as continuing to broaden and deepen my understanding in this complex and ever-changing field of computer science. Select a button above for further details.
 									</p></div>
 
 
-									<!--
+									
 									<h3 class="major" id="background">Background & Work Experience</h3>
 									<button id="nut-background-content" type="button">Clinical Nutrition</button>
 									<button id="man-background-content" type="button">Management</button>
-									<button id="ed-background-content" type="button">Teaching</button>
-									<button id="comm-background-content" type="button">Presentations</button>
+									<button id="com-background-content" type="button">Communication</button>
 									<button id="fl-background-content" type="button">Foreign Languages</button>
-									<div id="background-content"><p>Click a button to learn more about my background.</p></div>
+									<div id="background-content"><p>I have professional experience in nutrition, management, and education, with a background in (and a passion for) foreign languages. Select a topic if you would like to learn more!</p></div>
 
 									<h3 class="major" id="langtools">Programming Languages & Tools</h3>
 									<button id="lang-langtools-content" type="button">Languages & Frameworks</button>
 									<button id="tools-langtools-content" type="button">Systems & Tools</button>
-									<div id="langtools-content"><p>Click a button to learn more about what I can use.</p></div>
-
+									<div id="langtools-content"><p>The process of discovering and mastering programming languages and tools is never-ending, as new languages, frameworks, and tools become available every year. With a strong background in the fundamental knowledge that transcends language, I am open to and enthusiastic to explore any language needed for a project or role. Click a button for details on the languages and tools I am most proficient in at the moment.</p></div>
+									
+									<!--
 									<section class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
@@ -93,6 +93,7 @@
 										</article>
 									</section>
 									-->
+									
 								</div>
 							</div>
 
@@ -123,21 +124,19 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-				function changeContent(newContent) {
+				function changeEdContent(newContent) {
 				  document.getElementById("education-content").innerHTML = newContent;
 				}
-				const cseducation='<h3>B.S. Computer Science - University of the People</h3>' + 
-					'<h4>January 2021 - Present (Expected graduation: Spring/Summer 2023)</h4>' +
-					'<p><i>Academic Honors: President\’s List (all academic terms to date); cGPA 4.00</i></p>' +
-					'<p>CS major coursework completed to date & associated languages:</p>' + 
+				const cseducation='<h3>B.S. Computer Science University of the People</h3>' + 
+					'<h4>January 2021 - January 2023 -- Graduated summa cum laude w/cGPA 4.00</h4>' +
+					'<p>CS major coursework & associated languages:</p>' + 
 					'<ul class="education"><li>Programming Fundamentals (Python)</li><li>Programming I & II (Java)</li><li>Operating Systems I & II</li>' + 
 						'<li>Software Engineering</li><li>Web Programming I & II (JavaScript, HTML/CSS & PHP)</li><li>Communications & Networks</li><li>Computer Systems (Hack Assembly)</li>' + 
 						'<li>Databases I & II (SQL)</li><li>Data Structures (Java)</li><li>Analysis of Algorithms (Java)</li><li>Comparative Programming Languages (Haskell, Perl, PHP, Prolog, RegEx)</li>' + 
-						'<li>College Algebra</li><li>Discrete Mathematics</li><li>Introduction to Statistics (R)</li><li>Calculus</li></ul>' +
-					'<p>Currently Taking: Data Mining & Machine Learning (R)</p>';
-
+						'<li>College Algebra</li><li>Discrete Mathematics</li><li>Introduction to Statistics (R)</li><li>Calculus</li><li>Data Mining & Machine Learning (R)</li></ul>';
+				
 				const deeducation='<h3>Data Engineering Professional Certificate - IBM</h3>' + 
-					'<h4>September 2022 - Present (Expected completion: December 2022)</h4>' +
+					'<h4>September 2022 - Present (anticipated completion: May 2023)</h4>' +
 					'<p>Component Courses (5/13 courses completed):</p>' + 
 					'<ol class="education"><li>Introduction to Data Engineering - <a href = "https://coursera.org/share/5aa0da8de525cbe08c7aac1800aa415c">(cert)</a></li>' + 
 						'<li>Python for Data Science, AI & Development - <a href = "https://coursera.org/share/72061523a31fa9191a0df6bbb34070ed">(cert)</a></li>' + 
@@ -148,8 +147,18 @@
 						'<li>Relational Database Administration</li><li>ETL and Data Pipelines with Shell, Airflow and Kafka</li><li>Getting Started with Data Warehousing and BI Analytics</li>' + 
 						'<li>NoSQL, Big Data and Spark Foundations</li><li>Intro to Big Data with Spark and Hadoop</li><li>Data Engineering and Machine Learning Using Spark</li><li>Data Engineering and Capstone Project</li></ol>';
 					
-				const dseducation='<h3>Data Science Professional Certificate - HarvardX</h3>' + 
-					'<h4>June 2022 - Present (Expected completion: December 2022)</h4>' +
+				const dseducation='<h3>M.S. Data Scinece - University of Colorado Boulder</h3>' + 
+					'<h4>January 2023 - Present (anticipated completion: Fall 2024)</h4>' +
+					'<p>Major coursework:</p>' + 
+					'<ul class="education1col"><li>Data structures & algorithms (sorting, searching, trees, graphs, dynamic programming, greedy algorithms)</li>' + 
+						'<li>Vital skills for data scientists (cybersecurity, ethics issues, data visualization)</li>' + 
+						'<li>Statistics (probability theory, statistical inference, hypothesis testing)</li>' +
+						'<li>Statistical modeling (modern regression analysis, ANOVA & experimental design, generalized linear models & nonparametric regression)</li>' + 
+						'<li>Machine learning (supervised learning, unsupervised learning, deep learning)</li>' +
+						'<li>Databases (design, SQL)</li>' +
+						'<li>Data mining (pipeline, methods, project)</li>' +  '</ul>'+
+					'<h3>Data Science Professional Certificate - HarvardX</h3>' + 
+					'<h4>June 2022 - Present (anticipated completion: February 2023)</h4>' +
 					'<p>Component Courses (6/9 courses completed):</p>' + 
 					'<ol class="education"><li>R Basics - <a href="https://courses.edx.org/certificates/eef7ad01cbc34ffbbc708d9efb1405dd">(cert)</a></li>'+
 						'<li>Vizualization - <a href="https://courses.edx.org/certificates/9ca119c378e9438a8f51b0fa48ff329c">(cert)</a></li>'+
@@ -158,49 +167,127 @@
 						'<li>Productivity Tools - <a href = "https://courses.edx.org/certificates/e361dd4037034741bb12091ccca03801">(cert)</a></li>'+ 
 						'<li>Wrangling - <a href = "https://courses.edx.org/certificates/e3abe9f2b8f9411caac2163b1bca40ba">(cert)</a></li>' +
 						'<li>Linear Regression</li><li>Machine Learning</li><li>Capstone Project</li></ol>';
-				const etceducation='<h3>Continuing Education</h3>' + 
-					'<p>We are never done learning -- as my coursework has given me a solid foundational base and my specializations ' + 
-						'allow me to focus more deeply on on the highly inter-connected fields of data engineering and data science, I continuously seek to both broaden and deepen my knowledge and skills.' +
-						'Through additional reading, courses, and projects I revisit the basics with a deeper understanding of the big picture and I can improve my understanding of this ever-changing and fascinating field.</p>' + 
-					'<p>Here are some of the books I have read or am currently reading:</p>' + 
-					'<ul class="resourcelist">' + 
 						
-						'<li><i>Naked Statistics</i> by Charles Wheelan - <b>currently reading</b> for broader context on statictics and applications in data science.</li>' + 
-						'<li><i>Structure and Interpretation of Computer Programs</i> by Harold Abelson & Gerald Jay Sussman - ' + 
-							'<b>currently reading</b> to revisit fundamentals now that I have broader understanding of the field and to gain exposure to Scheme/Lisp. ' + 
-							'I\'m simultaneously reading the recent JavaScript version for comparison.</li>' + 
-						'<li><i>Operating Systems: Three Easy Pieces</i> by Remzi Arpaci-Dusseau & Andrea Arpaci-Dusseau <b>*FAVORITE*</b>' +
-							' - Excellent exploration of how operating systems work, with focus on virtualization, concurrency, and persistance as the "three easy pieces" ' +
-							'that the book is divided into. I particularly enjoyed the topic of concurency and hope to explore the area further with Downey\'s ' +
-							'"Little Book of Sempahores" for review and practice implementing semaphores with Python. </li>' + 
-						'<li><i>Grokking Algorithms</i> by Aditya Bhargava - this was a fantastic preparation to the data structures and algorithms courses I took for my classes.</li>' +  
-						'<li><i>The Elements of Computing Systems</i> by Noam Nisan & Simon Schocken - this was one of the books we used for Computer Systems and, in combination with the author\'s Coursera lectures "Nand2Tetris", was instrumental in forming my understanding of low-level computer architecture.</li>' +  
-						'<li><i>Understanding Programming Languages</i> by M. Ben-Ari - course text for Comparative programming languages, though not as detailed as I would have liked.</li>' +  
-						'<li><i>Introduction to Statistical Learning</i> by James, Witten, Hastie, Tibshirani - <b>currently reading</b> to support Data Mining and Machine Learning Coursework using R.</li>' + 
-						'<li><i>Introduction to Data Science</i> by Rafael Irizarry - <b>currently reading</b> to supplement Data Science certificate using R.</li>' + 
-						'<li><i>Learn You a Haskell for Great Good</i> by Miran Lipovaca - read this for Comparative Programming Languages course on functional programming.</li>' + 
-						'<li><i>Programming in Haskell</i> by Graham Hutton - preferred this text for Haskell.</li>' + 
-						'<li><i>Think Python</i> by Allen Downey - Python-based text used for Introductory Programming. Very simple and easy to follow; I look forward to reading more specialized work by this author on semaphores.</li>' + 
-						'<li><i>Introduction to Programming Using Java</i> by David Eck - Java-based text used for Programming I and II. A much denser text than <i>Think Python</i>, but I enjoyed this book immensely. It would be suitable for self-study due to excellent selection of exercises</li>' + 
-					'</ul>'
-					'<p>Here are other courses I have taken:</p>' + 
-					'<ul class="resourcelist"><li><b>The Odin Project</b> -- partially completed but elected to pursue full CS degree rather than focus on full stack web development.<b>**FAVORITE**</b></li>';		
+				
+				function changeBgContent(newContent) {
+				  document.getElementById("background-content").innerHTML = newContent;
+				}
+				const nutrition='<h3>Nutritionist - Self-employed</h3>' + 
+					'<h4>June 2014 - Present</h4>' +
+					'<p>Practicing one-on-one clinical nutrition in private practice for the better part of a decade. ' +
+						'Professional education in the field inclues <b>M.S. in Nutrition and Integrative Health</b> from Maryland University of Integrative Health and certification as a Nutrition Consultant from Bauman College.</p>' + 
+					'<ul class="education1col"><li>Individualized solutions to address health concerns with specialty focus on prenatal nutrition and managing blood sugar for pregnancy, weight management, and diabetes prevention.</li>' + 
+						'<li>Worked with medical providers in dentistry, endocrinology, physical therapy, and OB-GYN to support their patients with nutrition.</li>' + 
+						'<li>Fostered <b>excellent communication skills</b> to be able to work with a wide variety of both clients and health care professionals.</li>' + 
+						'<li>Researched and produced <b>visually engaging educational materials</b> to support adherence to science-based recommendations.</li>' + 
+						'<li><b>Designed and led community workshops</b> on nutrition at local dental offices and OB-GYN offices in order to educate and motivate communities.</li></ul>';
+				
+				const management='<h3>Manager - Family & Cosmetic Natural Dentistry</h3>' + 
+					'<h4>July 2013 - June 2018</h4>' +
+					'<p>Started as receptionist without front office or dental experience, rapidly mastered all aspects of office administration & <b>promoted to Project Manager at 1-year review, Exectuive Office Manager at 2-year review</b>' +
+					'<p>Achievements:</p><ul class="education1col"><li>Streamlined scheduling and communication to reduce patient delays by 30%.</li>' + 
+						'<li>Eliminated backlog of over 100 outstanding claims.</li>' + 
+						'<li>Reduced A/R by 20%.</li>' + 
+						'<li>Performed regular audits of A/R & claims.</li>' + 
+						'<li>Improved accuracy of scheduled services and insurance info from 70% to 95% accuracy.</li>' + 
+						'<li>Designed training materials, conducted interviews and trained new hires.</li></ul>' + 
+						'<p>Projects Completed:</p><ul class="education1col"><li>Transition to electronic charts</li>' + 
+						'<li>Green Business Certification</li>' + 
+						'<li>Designed materials for & prepared public booth for local annual street fair (community outreach)</li>' + 
+						'<li>Designed educational materials for patients related to oral hygiene, orthodontics, nutrition, and preventative home care.</li>' + 
+						'<li>Developed and led nutrition workshops for community and staff.</li>' + 
+						'<li>Leveraged HTML/CSS knowledge to update and maintain office website.</li></ul>';
+				
+				const communication='<h3>Educator, Designer, Speaker</h3>' + 
+					'<p>Between five years of experience as a language teacher overseas and ten years as a nutritionist, I\'ve had a lot of practice speaking to individuals and groups, creating visually appealing educational resources, and practicing effective and cooperative communication.</p>' + 
+					'<p>Highlights:</p><ul class="education1col"><li><b>Classroom teaching in South Korea for 5 years</b>, from kindergarten through highschool students as well as adults. Designed classroom materials & curricula. Seamlessly shifted from teaching low-level, high-energy classes of young children to high-level conversational classes for Korean teachers.</li>' + 
+						'<li><b>Public speaking & leadership through Toastmasters club</b> -- Developed my own speaking skills from the ground up and also <b>volunteered as Vice President of Education</b> to facilitate meetings and support mentorship between members. Supported all members to improve at their own pace.</li>' + 
+						'<li>Professional materials developed for health care practitioners (OB-GYN, dentistry, endocrinology) as well as private nutrition practice.</li></ul>';
+				
+				const foreignlanguages='<h3>Foreign Language Education</h3>' + 
+					'<h4>B.A. in Hispanic Studies & German Studies from Lewis & Clark College (September 2003 - May 2007)</h4>' +
+					'<p>After an initial undergraduate education in the language, literature, and culture of the Spanish- and German-speaking world, I went on to work abroad in South Korea</p>' + 
+					'<p>Language Highlights:</p><ul class="education1col"><li>Studied abroad as an undergraduate in Valparaíso, Chile (1 semester) and Munich, Germany (1 year)</li>' + 
+						'<li>Lived & worked in suburbs of Seoul, South Korea (5 years), teaching myself Korean in my spare time.</li>' + 
+						'<li>Independently studied/dabbled in: French, Dutch, Japanese, ASL, Ukranian.</li></ul>' + 
+					'<p>Current Language Abilities:</p><ul class="education1col"><li><b>Fluent in English</b> (native speaker with an excess number of degrees and a penchant for reading whenever I find a spare moment)</li>' + 
+						'<li><b>Conversational in Spanish and German</b> (proficient reading comprehension, formerly fluent speaking abilities)</li>' + 
+						'<li><b>Basic/limited abilities in Korean, French, and ASL</b> (proficient reading comprehension in French, formerly strong conversational ability in Korean)</li>' + 
+						'<li>Some knowledge but absolutely no business holding any type of conversation in Japanese, Ukranian, and Dutch</ul>' + 
+							'<p>Basically, I love learning and communicating and natural languages will always hold a very dear place in my heart, but my attention in recent years has been focused on formal languages of math, computer science, and data science, reducing my opportunities for language studies.</p>';
+				
+				
+				function changeLtContent(newContent) {
+				  document.getElementById("langtools-content").innerHTML = newContent;
+				}
+
+				const programminglanguages='<h3>Programming Languages</h3>' + 
+					'<p>Proficient Languages:</p><ul class="education"><li>Python</li>' + 
+						'<li>Java</li>' + 
+						'<li>R</li>' + 
+						'<li>SQL</li>' + 
+						'<li>JavaScript</li>' + 
+						'<li>HTML/CSS</li></ul>' + 
+					'<p>Limited experience:</p><ul class="education"><li>Ruby</li>' + 
+						'<li>C</li>' + 
+						'<li>C++</li>' + 
+						'<li>Haskell</li>' + 
+						'<li>Perl</li>' + 
+						'<li>PHP</li>' + 
+						'<li>RegEx</li>' + 
+						'<li>Prolog</li></ul>';
+					
+				const programmingtools='<h3>Programming Tools</h3>' + 
+					'<p>Data Science Libraries:</p><ul class="education"><li>NumPy</li>' + 
+						'<li>Pandas</li>' + 
+						'<li>Matplotlib</li>' + 
+						'<li>ggplot2</li></ul>' + 
+					'<p>Developer Tools:</p><ul class="education"><li>Git + GitHub</li>' + 
+						'<li>VS Code</li>' + 
+						'<li>PyCharm</li>' + 
+						'<li>IntelliJ</li>' + 
+						'<li>Eclipse</li>' + 
+						'<li>Jupyter Notebooks</li>' + 
+						'<li>R Studio</li></ul>';
+
 				document.getElementById("cs-education-content").onclick = function () {
-				  changeContent(cseducation);
+				  changeEdContent(cseducation);
 				};
 
 				document.getElementById("de-education-content").onclick = function () {
-					changeContent(deeducation);
+					changeEdContent(deeducation);
 				};
 
 				document.getElementById("ds-education-content").onclick = function () {
-					changeContent(dseducation);
+					changeEdContent(dseducation);
 				};
-				document.getElementById("etc-education-content").onclick = function () {
-					changeContent(etceducation);
+				//-- ADDED --
+				document.getElementById("nut-background-content").onclick = function () {
+					changeBgContent(nutrition);
+				};
+				document.getElementById("man-background-content").onclick = function () {
+					changeBgContent(management);
+				};
+				document.getElementById("com-background-content").onclick = function () {
+					changeBgContent(communication);
+				};
+				document.getElementById("fl-background-content").onclick = function () {
+					changeBgContent(foreignlanguages);
+				};
+				document.getElementById("lang-langtools-content").onclick = function () {
+					changeLtContent(programminglanguages);
+				};
+				document.getElementById("tools-langtools-content").onclick = function () {
+					changeLtContent(programmingtools);
 				};
 			  </script>
-			  
+<!--
+
+<h3 class="major" id="langtools">Programming Languages & Tools</h3>
+<button id="lang-langtools-content" type="button">Languages & Frameworks</button>
+<button id="tools-langtools-content" type="button">Systems & Tools</button>
+<div id="langtools-content"><p>Click a button to learn more about what I can use.</p></div>
+-->
 			  <!--
 			<script>
 				function changeEducationContent(){
